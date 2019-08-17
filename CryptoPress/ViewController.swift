@@ -15,9 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let api = CryptoControlApi(apiKey: "")
         
-        api.getTopNews { (error, articles) in
+        Secrets.api.getTopNews { (error, articles) in
             if (error == CCErrors.invalidAPIKey) {
                 print("bad api key")
             }
@@ -27,9 +26,11 @@ class ViewController: UIViewController {
         }
         
         
-        api.getTopNewsByCategory { (error, categories) in
+        Secrets.api.getTopNewsByCategory { (error, categories) in
             print(categories?.analysis.count)
         }
+        
+       
     }
 
 }

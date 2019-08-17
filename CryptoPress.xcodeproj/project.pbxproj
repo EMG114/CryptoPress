@@ -13,6 +13,8 @@
 		0798DB2E230854D9003E0D9B /* CryptoPress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0798DB2C230854D9003E0D9B /* CryptoPress.xcdatamodeld */; };
 		0798DB30230854DA003E0D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0798DB2F230854DA003E0D9B /* Assets.xcassets */; };
 		0798DB33230854DA003E0D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798DB31230854DA003E0D9B /* LaunchScreen.storyboard */; };
+		0798DB3B23086BB9003E0D9B /* CryptoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798DB3A23086BB9003E0D9B /* CryptoApi.swift */; };
+		0798DB3D23086E9F003E0D9B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798DB3C23086E9F003E0D9B /* Secrets.swift */; };
 		89DBB5B05D441CBF4683C244 /* Pods_CryptoPress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C45564BE4B59EAFAA8D19C /* Pods_CryptoPress.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		0798DB2F230854DA003E0D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0798DB32230854DA003E0D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0798DB34230854DA003E0D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0798DB3A23086BB9003E0D9B /* CryptoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApi.swift; sourceTree = "<group>"; };
+		0798DB3C23086E9F003E0D9B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		17573F33E13244535CD6A293 /* Pods-CryptoPress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoPress.release.xcconfig"; path = "Target Support Files/Pods-CryptoPress/Pods-CryptoPress.release.xcconfig"; sourceTree = "<group>"; };
 		6F8C66FEA49BFF3189056406 /* Pods-CryptoPress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoPress.debug.xcconfig"; path = "Target Support Files/Pods-CryptoPress/Pods-CryptoPress.debug.xcconfig"; sourceTree = "<group>"; };
 		A4C45564BE4B59EAFAA8D19C /* Pods_CryptoPress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoPress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +69,8 @@
 			children = (
 				0798DB25230854D9003E0D9B /* AppDelegate.swift */,
 				0798DB27230854D9003E0D9B /* ViewController.swift */,
+				0798DB3A23086BB9003E0D9B /* CryptoApi.swift */,
+				0798DB3C23086E9F003E0D9B /* Secrets.swift */,
 				0798DB29230854D9003E0D9B /* Main.storyboard */,
 				0798DB2F230854DA003E0D9B /* Assets.xcassets */,
 				0798DB31230854DA003E0D9B /* LaunchScreen.storyboard */,
@@ -207,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0798DB28230854D9003E0D9B /* ViewController.swift in Sources */,
+				0798DB3D23086E9F003E0D9B /* Secrets.swift in Sources */,
+				0798DB3B23086BB9003E0D9B /* CryptoApi.swift in Sources */,
 				0798DB26230854D9003E0D9B /* AppDelegate.swift in Sources */,
 				0798DB2E230854D9003E0D9B /* CryptoPress.xcdatamodeld in Sources */,
 			);
